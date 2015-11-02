@@ -1,11 +1,12 @@
 <html>
 <head>
-	<title>Trabajos</title>
-	<link rel="estilo/centrar.css" type="stylesheet" />
-	<script src="checker.js"></script>
-	<script src="selector.js"></script>
+<title>Trabajos</title>
+        <link href="estilos/centrar.css" rel="stylesheet" type="text/css">
+	<script src="source/checker.js"></script>
+	<script src="source/selector.js"></script>
 </head>
 <body>
+<div class="centrar">
 	Inteligencia <input type="range" name="points" min="0" max="100" id="hep" onchange="main('hep', 'hh')"><p id="hh">--</p>
 	Belleza <input type="range" name="points" min="0" max="100" id="hep1" onchange="main('hep1', 'hh1')"><p id="hh1">--</p>
 	Habilidad <input type="range" name="points" min="0" max="100" id="hep2" onchange="main('hep2', 'hh2')"><p id="hh2">--</p>
@@ -13,5 +14,6 @@
 	<input type="submit" onclick="persona()">
 	<br />
 	<p id="pers"></p>
+</div>
 </body>
 </html>
